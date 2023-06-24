@@ -7,6 +7,10 @@ const messages = document.querySelector('.messages');
 const message = messages.querySelectorAll('.message');
 const messageSearch = document.querySelector('#message-search');
 
+//THEME
+const theme = document.querySelector('#theme');
+const themeModal = document.querySelector('.customize-theme');
+const fontSizes = document.querySelectorAll('.choose-size span');
 
 
 //========================SIDEBAR========================//
@@ -62,3 +66,42 @@ messagesNotification.addEventListener('click', () => {
 
 
 // THEME/DISPLAY CUSTOMIZATION
+
+//opens modal
+const openThemeModel = () => {
+    themeModal.style.display = 'grid';
+}
+
+//close modal
+const closeThemeModel = (e) => {
+    if(e.target.classList.contains('customize-theme')){
+        themeModal.style.display = 'none';
+    }
+}
+
+//close modal
+themeModal.addEventListener('click', closeThemeModel);
+
+theme.addEventListener('click',openThemeModel);
+
+
+
+
+
+
+//===================================FONTS===============================//
+fontSizes.forEach(size => {
+    let fontSize;
+
+    if(size.classList.contains('font-size-1')){
+        fontSize = '10 px';
+    }else if(size.classList.contains('font-size-2')){
+        fontSize = '13 px';
+    } else if(size.classList.contains('font-size-3')){
+        fontSize = '16 px';
+    } else if(size.classList.contains('font-size-4')){
+        fontSize = '19 px';
+    }else if(size.classList.contains('font-size-5')){
+        fontSize = '22 px';
+    }
+})
