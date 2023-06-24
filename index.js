@@ -1,7 +1,9 @@
 // SIDEBAR
 const menuItems = document.querySelectorAll('.menu-item');
 
-
+// MESSAGES
+const messagesNotification = document.querySelector('#messages-notification');
+const messages = document.querySelector('.messages');
 
 //========================SIDEBAR========================//
 //remove active class from all menu items
@@ -22,3 +24,5 @@ menuItems.forEach(item => {
         }
     })
 })
+
+//=============================MESSAGES===============================//
