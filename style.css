@@ -4,7 +4,7 @@
     --primary-color-hue: 252;
     --dark-color-lightness: 17%;
     --light-color-lightness:95%;
-    --white-color-lightness: 100%
+    --white-color-lightness: 100%;
 
     --color-white: hsl(252, 30%, var(--white-color-lightness));
     --color-light: hsl(252, 30%, var(--light-color-lightness));
@@ -26,9 +26,7 @@
     --sticky-top-right: -18rem;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -39,12 +37,13 @@
 }
 
 body {
-    font-family: "Poppins" , sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: var(--color-dark);
     background: var(--color-light);
     overflow-x: hidden;
 }
 
+/* GENERAL STYLE */
 .container{
     width: 80%;
     margin: 0 auto;
@@ -58,7 +57,7 @@ body {
 }
 
 img {
-    display: black;
+    display: block;
     width: 100%;
 }
 
