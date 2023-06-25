@@ -177,7 +177,7 @@ nav{
         position: relative;
     }
 
-    .left .sidebar .menu-item:hover{
+    .left .sidebar .menu-item:hover {
         background: var(--color-light);
     }
 
@@ -209,7 +209,7 @@ nav{
         background: var(--color-light);
     }
 
-    .left .sidebar .active i,
+    .left .sidebar .active i, 
     .left .sidebar .active h3 {
         color: var(--color-primary);
     }
@@ -223,6 +223,7 @@ nav{
         background: var(--color-primary);
 
     }
+
     .left .sidebar .menu-item:first-child.active{
         border-top-left-radius: var(--card-border-radius);
         overflow: hidden;
@@ -248,7 +249,7 @@ nav{
     background: var(--color-white);
     border-radius: var(--card-border-radius);
     padding: var(--card-padding);
-    box-shadow: 0 0 2rem hsl(var(--color-primary),75%, 60% 25%);
+    box-shadow: 0 0 2rem hsl(var(--color-primary), 75%, 60% 25%);
     z-index: 8;
     display: none;
 
