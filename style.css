@@ -111,7 +111,7 @@ nav{
         padding: var(--search-padding);
     }
 
-    nav .search-bar input[type="search"] {
+    .search-bar input[type="search"] {
         background: transparent;
         width: 30vw;
         margin-left: 1rem;
