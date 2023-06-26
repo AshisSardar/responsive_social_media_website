@@ -102,32 +102,32 @@ const removeSizeSelector = () => {
     })
 }
 
-fontSizes.forEach(size => {
+fontSizes .forEach(size => {
     size.addEventListener('click' , () => {
     removeSizeSelector();
     let fontSize;
     size.classList.toggle('active');
     
         if(size.classList.contains('font-size-1')){
-            fontSize = '10 px';
-            root.style.setProperty('--sticky-top-left' , '5.4rem');
-            root.style.setProperty('--sticky-top-right' , '5.4rem');
-        }else if(size.classList.contains('font-size-2')){
-            fontSize = '13 px';
-            root.style.setProperty('--sticky-top-left' , '5.4rem');
-            root.style.setProperty('--sticky-top-right' , '-7rem');
+            fontSize = '10px';
+            root.style.setProperty('----sticky-top-left' , '5.4rem');
+            root.style.setProperty('----sticky-top-right' , '5.4rem');
+        } else if(size.classList.contains('font-size-2')){
+            fontSize = '13px';
+            root.style.setProperty('----sticky-top-left' , '5.4rem');
+            root.style.setProperty('----sticky-top-right' , '-7rem');
         } else if(size.classList.contains('font-size-3')){
-            fontSize = '16 px';
-            root.style.setProperty('--sticky-top-left' , '-2rem');
-            root.style.setProperty('--sticky-top-right' , '-17rem');
+            fontSize = '16px';
+            root.style.setProperty('----sticky-top-left' , '-2rem');
+            root.style.setProperty('----sticky-top-right' , '-17rem');
         } else if(size.classList.contains('font-size-4')){
-            fontSize = '19 px';
-            root.style.setProperty('--sticky-top-left' , '-5rem');
-            root.style.setProperty('--sticky-top-right' , '-25rem');
-        }else if(size.classList.contains('font-size-5')){
-            fontSize = '22 px';
-            root.style.setProperty('--sticky-top-left' , '-12rem');
-            root.style.setProperty('--sticky-top-right' , '-35rem');
+            fontSize = '19px';
+            root.style.setProperty('----sticky-top-left' , '-5rem');
+            root.style.setProperty('----sticky-top-right' , '-25rem');
+        } else if(size.classList.contains('font-size-5')){
+            fontSize = '22px';
+            root.style.setProperty('----sticky-top-left' , '-12rem');
+            root.style.setProperty('----sticky-top-right' , '-35rem');
         }
 
     //change font size of the root html element
