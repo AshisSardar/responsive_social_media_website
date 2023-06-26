@@ -700,7 +700,7 @@ MEDIA QUARIES FOR SMALL LAPTOPS AND BIG TABLETS
 =================================
 */
 @media screen and (max-width: 1200px) {
-    .container{
+    .container {
         width: 96%;
     }
 
@@ -728,6 +728,8 @@ main .container .left .profile {
 
 .customize-theme .card{
     width: 80vw;
+}
+
 }
 
 /*===========================================
@@ -781,7 +783,7 @@ MEDIA QUARIES FOR SMALL TABLETS AND MOBILE PHONES
 
 
 
-}
+
     
 
 
