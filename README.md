@@ -3,12 +3,12 @@ asdiSocial (a basic responsive social media)-on local host
 
 
 
-Technologies used:
+# Technologies used:
 HTML
 CSS (Flexbox & GRID used)
 JavaScript
 
-** Key Features:
+# Key Features:
 >> Searching people by name in messeage search bar
 >> Changing theme color
 >> Changing background color
