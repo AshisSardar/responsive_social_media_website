@@ -9,9 +9,9 @@ CSS (Flexbox & GRID used)
 JavaScript
 
 # Key Features:
->> Searching people by name in messeage search bar
->> Changing theme color
->> Changing background color
->> Changing front size
->> Notification popup 
+-- Searching people by name in messeage search bar
+-- Changing theme color
+// Changing background color
+// Changing front size
+// Notification popup 
 
