@@ -1,5 +1,5 @@
 # responsive_social_media_website
-asdiSocial (a basic responsive social media)-on local host
+AsdiSocial is a web application developed and deployed on a local host server.
 
 # asdiSocial features showing in video 
 https://drive.google.com/file/d/1KcfV7zAKH3YjXJ-JBT7RGF4xBsnyd6L5/view?usp=drive_link
@@ -9,12 +9,11 @@ HTML ||
 CSS (Flexbox & GRID used) ||
 JavaScript
 
-# Key Features:
--- Searching people by name in messeage search bar
-// Changing theme color
-// Changing background color
-// Changing front size
-// Notification popup 
+# Implemented features including: 
+* Search functionality in the message search bar
+* Customization options for theme color, background color, and font size
+* Notification popup for enhanced user experience.
+
 
 
 
